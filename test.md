@@ -16,4 +16,15 @@ sdlfjshldfksjhdlsfkjshlkfj
 
 $ \sum_{\forall i}{x_i^{2}} $
 
+\begin{equation}
+...
+\end{equation}
+
+
+\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
+
+
+\\( ax^2 + \sqrt{bx} + c = 0 \\)
+
+
 [back](./)
