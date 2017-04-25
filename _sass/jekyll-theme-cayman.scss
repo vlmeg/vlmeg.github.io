@@ -87,10 +87,16 @@ a {
 }
 
 .page-header {
-  color: $header-heading-color;
+  olor: #fff;
   text-align: center;
-  background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-color: #FF4E50;
+  /*CHANGE HERE THE BACKGROUND COLOUR-change all the 4 line */ 
+
+  background-image: -webkit-linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* Chrome 10+, Saf5.1+ */
+  background-image:    -moz-linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* FF3.6+ */
+  background-image:     -ms-linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* IE10 */
+  background-image:      -o-linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* Opera 11.10+ */
+  background-image:         linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* W3C */;
 
   @include large {
     padding: 5rem 6rem;
