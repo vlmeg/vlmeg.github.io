@@ -26,5 +26,8 @@ $ \sum_{\forall i}{x_i^{2}} $
 
 \\( ax^2 + \sqrt{bx} + c = 0 \\)
 
+Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
+\\[ \frac{1}{n^{2}} \\]
+
 
 [back](./)
