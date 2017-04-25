@@ -2,8 +2,10 @@
 layout: default
 ---
 
-## Welcome to another page
-
-_yay_
+## Math
+sdlfjshldfksjhdlsfkjshlkfj
+<br>
+<br>
+\sum_{i=1}^{10} t_i
 
 [back](./)
