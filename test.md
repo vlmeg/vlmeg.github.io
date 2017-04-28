@@ -30,4 +30,30 @@ Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block
 \\[ \frac{1}{n^{2}} \\]
 
 
+'''
+
+*** 1.Sets definitions
+
+Sets k periods of time    / ini,1*3/
+     i  loop iterations   /1*10/
+     n  buses             /b1,b2/
+     t  thermal units     /a1,a2/
+     nc(t,n)   bus units  / a1.b1,a2.b2/
+     cgt thermal data     /pmax,pmin,vc,fc,sc/
+     cln line data        /ss,cp/
+     p(k) dynamic subset of time periods
+     it(i) dynamic subset od iterations ;
+
+alias (n,n1);  alias (k,j);
+
+*** 2. Data presentation
+
+Table G(t,cgt) thermal unit data
+
+         pmax     pmin    vc         fc     sc
+*        (puW)    (puW)   (pu$/puW)  (pu$)  (pu$)
+a1       1.3      0.02    0.1        10.    20.
+a2       2.5
+'''
+
 [back](./)
