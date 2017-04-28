@@ -30,7 +30,7 @@ Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block
 \\[ \frac{1}{n^{2}} \\]
 
 
-'''
+```
 
 *** 1.Sets definitions
 
@@ -54,6 +54,6 @@ Table G(t,cgt) thermal unit data
 *        (puW)    (puW)   (pu$/puW)  (pu$)  (pu$)
 a1       1.3      0.02    0.1        10.    20.
 a2       2.5
-'''
+```
 
 [back](./)
