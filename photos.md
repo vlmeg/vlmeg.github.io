@@ -1,7 +1,8 @@
-
-
-
-![](https://github.com/vlmeg/vlmeg.github.io/blob/master/pics/1.JPG)
-
+---
+layout: default
+---
 
 <img src="pics/1.JPG" alt="hi" class="inline"/>
+
+[back](./)
+
