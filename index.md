@@ -6,11 +6,12 @@ layout: default
 i aM a .....
 
 [Here](http://vlmegphoto.me.pn) are some of my photos.
+[More] photos()
 
-An [example](Optimization) of Power System Optmization in GAMS
-
-
-
+Some [examples-notes](math_prog) on mathematical programming.
 
 
-[testing](test)
+
+
+
+[test](test)
