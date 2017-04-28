@@ -6,7 +6,7 @@ layout: default
 i aM a .....
 
 [Here](http://vlmegphoto.me.pn) are some of my photos.
-[More] photos()
+[More](photos) photos
 
 Some [examples-notes](math_prog) on mathematical programming.
 
