@@ -1,8 +1,6 @@
 title: V M
 description: 
-[//]: <> -_-
 show_downloads: true
 google_analytics:
 theme: 
-markdown: maruku
-[//]: markdown: kramdown
+markdown: kramdown
