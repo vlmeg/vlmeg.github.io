@@ -12,7 +12,7 @@ CONEX(I,I) /I1.I2,I1.I3,I1.I4,I2.I4,I3.I4/
  ~~~
 The objective function will be 
 
-\\[ Balance_{K}= \sum_{i,j} xp_{i,j}-\sum_{i,j} xp_{j,i}=F_{i}  \\]
+\\[ \Balance_{K}... \sum_{i,j} xp_{i,j}-\sum_{i,j} xp_{j,i}=F_{i}  \\]
 
 ~~~
 $title NETWORK FLOW PROBLEM
