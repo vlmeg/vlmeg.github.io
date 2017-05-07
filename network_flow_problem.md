@@ -82,3 +82,6 @@ SOLVE netflow USING lp MINIMIZING z;
 
 
 Reference:Castillo, E., Conejo A.J., Pedregal, P., Garc\'{\i}a, R. and Alguacil, N. (2002). Building and Solving Mathematical Programming Models in Engineering and Science, Pure and Applied Mathematics Series, Wiley, New York.
+
+
+[back](./)
