@@ -3,4 +3,4 @@ description:
 show_downloads: true
 google_analytics:
 theme: 
-markdown: kramdown
+markdown: 
