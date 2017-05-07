@@ -8,7 +8,7 @@ Four nodes in the system network connected to each other.
 ~~~
 Sets 
 i /1*4/
-CONEX(I,I) /I1.I2,I1.I3,I1.I4,I2.I4,I3.I4/
+Map I to j
  ~~~
 The objective function will be 
 
@@ -17,25 +17,17 @@ The objective function will be
 ~~~
 $title NETWORK FLOW PROBLEM
 
-**  First, sets are declared:
-**  Set I has four elements.
-**  Subset CONEX is defined as a subset of set I.
-**  The subset CONEX establishes the valid connections between nodes I.
+
 
 SET
  I          set of nodes in the network  /I1*I4/
  CONEX(I,I) set of node connections  /I1.I2,I1.I3,I1.I4,I2.I4,I3.I4/;
 
 **  The set of nodes I must be duplicated to refer to
-**  its different elements in the same constraint.
+
 
  ALIAS(I,J)
 
-**  Vectors of data are defined as parameters.
-**  Data are assigned to vector elements.
-**  FMAX(I,J) is a data matrix, declared as a parameter, where all
-**  its elements have the same value (4). This is a compact way
-**  to declare a matrix (instead of using a TABLE).
 
 PARAMETERS
  F(I)   the input or output flow at node I
@@ -53,12 +45,11 @@ VARIABLES
   z      objective function variable
   x(I,J) the flow going from node I to node J;
 
-**  Limits are stated on variables using previously defined data.
 
 x.lo(I,J)=-FMAX(I,J);
 x.up(I,J)=FMAX(I,J);
 
-** Constraints are declared.
+** Constraints
 
 EQUATIONS
  COST        objective function
@@ -72,8 +63,7 @@ EQUATIONS
 COST ..         z   =E=  SUM(CONEX(I,J),x(I,J)) ;
 BALANCE(I) ..   SUM(J$CONEX(I,J),x(I,J))-SUM(J$CONEX(J,I),x(J,I))  =E=  F(I) ;
 
-**  The next two sentences define the netflow model, considering all the above
-**  constraints, and direct GAMS to solve the problem using the lp solver.
+
 
 MODEL netflow /ALL/;
 SOLVE netflow USING lp MINIMIZING z;
