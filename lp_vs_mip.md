@@ -2,7 +2,9 @@
 layout: default
 ---
 
-## The classic trnasportation problem defined in both linear programming and mixed-integer linear programming
+## The classic transportation problem extended from  lp to mip
+
+The switch between the different formulation use the sequence $setglobal LPFormulation (0 or 1)
 
 ~~~
 $Title  A Transportation Problem (TRNSPORT,SEQ=1)
@@ -106,7 +108,8 @@ $If %LPFormulation% == 1          Display replp;
 $If not %LPFormulation% == 1      Display repmip;
 ~~~
 
-
+*Reference:Dantzig, G B, Chapter 3.3. In Linear Programming and Extensions.
+Princeton University Press, Princeton, New Jersey, 1963.*
 
 
 [back](./)
