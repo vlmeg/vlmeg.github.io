@@ -1,2 +1,2 @@
 # V M
-[V M](http://vlmeg.com) 
+[V M](vlmeg.github.io) 
