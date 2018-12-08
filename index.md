@@ -10,7 +10,7 @@ i aM a .....
 
 Some [examples-notes](math_prog) on mathematical programming.
 
-And [here](http://vlmeg.eu3.biz) are some of my photos
+And [here](vlmeg.eu3.biz) are some of my photos
 
 
 
