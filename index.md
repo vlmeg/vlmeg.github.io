@@ -3,19 +3,19 @@ layout: default
 ---
 
 
-i aM a .....
+I am a .....
 
 
 
 
 Some [examples-notes](math_prog) on mathematical programming.
 
-And [here](vlmeg.eu3.biz) are some of my photos
+[Some](vlmeg.eu3.biz) of my photos.
 
 
 
 <!--- 
-[Here](vlmeg.eu3.biz) are some of my photos.
+[Some](vlmeg.eu3.biz) of my photos.
 --->
 <!--- 
 [...](test)
