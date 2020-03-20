@@ -3,14 +3,13 @@ layout: default
 ---
 
 
-I am a .....
+
+### Math
+Some [examples](math_prog) of mathematical programming.
 
 
-
-
-Some [examples-notes](math_prog) on mathematical programming.
-
-[Some](https://vlmeg.eu3.biz) of my photos.
+### Python
+[Some](http://vlmeg.eu3.biz/#) of my photos.
 
 
 
@@ -19,4 +18,10 @@ Some [examples-notes](math_prog) on mathematical programming.
 --->
 <!--- 
 [...](test)
+--->
+
+
+<!--- 
+Check here original theme
+https://github.com/pages-themes/cayman#usage
 --->
