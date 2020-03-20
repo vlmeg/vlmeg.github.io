@@ -7,9 +7,6 @@ layout: default
 Some [examples](math_prog) of mathematical programming.
 
 
-### Python
-
-
 [Some](http://vlmeg.eu3.biz/#) of my photos.
 
 
