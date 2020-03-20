@@ -30,7 +30,12 @@ Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block
 \\[ \frac{1}{n^{2}} \\]
 
 
-``` ruby
+``` python
+
+print(x)
+
+def test():
+  A=Q
 
 *** 1.Sets definitions
 
