@@ -1,2 +1,3 @@
-# V M
-[V M](https://vlmeg.github.io) 
+# VM
+
+Personal Blog (WIP) [V M](https://vlmeg.github.io) 
